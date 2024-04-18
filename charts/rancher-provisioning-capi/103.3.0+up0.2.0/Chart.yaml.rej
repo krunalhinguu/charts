@@ -1,5 +1,5 @@
---- charts-original/Chart.yaml
-+++ charts/Chart.yaml
+--- Chart.yaml
++++ Chart.yaml
 @@ -7,7 +7,7 @@
    catalog.cattle.io/os: linux
    catalog.cattle.io/permits-os: linux,windows
