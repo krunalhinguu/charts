@@ -1,5 +1,5 @@
---- charts-original/Chart.yaml
-+++ charts/Chart.yaml
+--- Chart.yaml
++++ Chart.yaml
 @@ -5,10 +5,10 @@
    catalog.cattle.io/namespace: kube-system
    catalog.cattle.io/os: linux
