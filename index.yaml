@@ -13311,6 +13311,32 @@ entries:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/display-name: Rancher Provisioning CAPI Controller Manager
       catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.27.0-0 < 1.32.0-0'
+      catalog.cattle.io/namespace: cattle-provisioning-capi-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: apps.deployment/v1
+      catalog.cattle.io/rancher-version: '>= 2.9.0-0 < 2.11.0-0'
+      catalog.cattle.io/release-name: rancher-provisioning-capi
+    apiVersion: v1
+    appVersion: 1.8.3
+    created: "2024-09-12T06:33:04.046588429+05:30"
+    description: capi-controller-manager compatible with Rancher Provisioning
+    digest: 86dedf27287b26e960df497dfea970c946d7eaa95e6e74cb9e056f3e0792f354
+    home: https://github.com/rancher/provisioning/blob/main/charts/capi/
+    maintainers:
+    - email: chris.kim@suse.com
+      name: Chris Kim
+    name: rancher-provisioning-capi
+    sources:
+    - https://github.com/rancher/provisioning/blob/main/charts/capi/
+    urls:
+    - assets/rancher-provisioning-capi/rancher-provisioning-capi-105.0.0+up0.4.0.tgz
+    version: 105.0.0+up0.4.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Rancher Provisioning CAPI Controller Manager
+      catalog.cattle.io/hidden: "true"
       catalog.cattle.io/kube-version: '>= 1.27.0-0 < 1.31.0-0'
       catalog.cattle.io/namespace: cattle-provisioning-capi-system
       catalog.cattle.io/os: linux
