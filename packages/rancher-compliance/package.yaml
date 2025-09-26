@@ -1,12 +1,12 @@
-url: https://github.com/rancher/compliance-operator.git
-version: 107.1.0
-chartRepoBranch: release/v1.0
+url: https://github.com/krunalhinguu/compliance-operator.git
+version: 107.2.0
+chartRepoBranch: test-cis-1.11
 subdirectory: chart
 additionalCharts:
   - workingDir: charts-crd
     upstreamOptions:
-      url: https://github.com/rancher/compliance-operator.git
-      chartRepoBranch: main
+      url: https://github.com/krunalhinguu/compliance-operator.git
+      chartRepoBranch: test-cis-1.11
       subdirectory: crds
     crdOptions:
       templateDirectory: crd-template
